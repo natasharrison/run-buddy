@@ -41,7 +41,9 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
+/* HEADER / NAVBAR STYLES END */
 
+/* FOOTER STYLES START */
 footer {
   background: #fce138;
   width: 100%;
@@ -64,12 +66,14 @@ footer div {
 footer a {
   color: #024e76;
 }
+/* END FOOTER STYLES */
 
+/* STYLE ALL SECTION TAGS */
 section {
   padding: 60px;
 }
 
-/*Hero Style Start*/
+/*HERO STYLES START*/
 .hero {
   background-image: url("../images/hero-bg.jpg");
   height: 600px;
@@ -119,9 +123,28 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
+/* HERO STYLES END */
 
-/*Hero Style End */
+/* SECTION TITLE STYLES START */
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+}
 
+.primary-border {
+  border-color: #fce138;
+}
+
+.secondary-border {
+  border-color: #39a6b2;
+}
+/* SECTION TITLE STYLES END */
+
+/* WHAT WE DO STYLES */
 .intro {
   text-align: center;
 }
@@ -134,6 +157,7 @@ section {
   margin: 0 auto;
 }
 
+/* WHAT YOU DO STYLES START */
 .steps {
   text-align: center;
   background: #fce138;
@@ -161,24 +185,9 @@ section {
 .steps span {
   font-size: 38px;
 }
+/* WHAT YOU DO STYLES END */
 
-.section-title {
-  font-size: 55px;
-  color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
-  border-bottom: 3px solid;
-}
-
-.primary-border {
-  border-color: #fce138;
-}
-
-.secondary-border {
-  border-color: #39a6b2;
-}
-
+/* MEET THE TRAINERS START */
 .trainers {
   text-align: center;
 }
@@ -202,14 +211,6 @@ section {
   width: 65%;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -220,11 +221,11 @@ section {
   font-size: 26px;
   margin-bottom: 25px;
 }
-
 .trainer-bio p {
   font-size: 17px;
   line-height: 1.3;
 }
+/* TRAINER STYLES END */
 
 /* REACH OUT STYLES START */
 .contact {
@@ -268,3 +269,12 @@ section {
 }
 
 /* REACH OUT STYLES END */
+
+/* UTILITIES */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
