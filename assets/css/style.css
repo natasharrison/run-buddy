@@ -149,10 +149,11 @@ section {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -165,9 +166,6 @@ section {
 /* SECTION TITLE STYLES END */
 
 /* WHAT WE DO STYLES */
-.intro {
-  text-align: center;
-}
 
 .intro p {
   line-height: 1.7;
@@ -175,11 +173,11 @@ section {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* WHAT YOU DO STYLES START */
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -208,9 +206,6 @@ section {
 /* WHAT YOU DO STYLES END */
 
 /* MEET THE TRAINERS START */
-.trainers {
-  text-align: center;
-}
 
 .trainer {
   width: 900px;
@@ -249,7 +244,6 @@ section {
 
 /* REACH OUT STYLES START */
 .contact {
-  text-align: center;
   background: #024e76;
 }
 
@@ -297,4 +291,8 @@ section {
 
 .text-right {
   text-align: right;
+}
+
+.flex-row {
+  display: flex;
 }
