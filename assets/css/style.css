@@ -177,8 +177,11 @@ section {
 }
 
 /* WHAT YOU DO STYLES START */
-.step {
+.steps {
   background: #fce138;
+}
+
+.step {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
