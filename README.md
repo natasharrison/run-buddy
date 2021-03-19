@@ -2,7 +2,6 @@
 
 ## Purpose
 
-<<<<<<< HEAD
 A website that offers fitness training services.
 
 ## Built With
@@ -13,19 +12,6 @@ A website that offers fitness training services.
 ## Website
 
 https://natasharrison.github.io/run-buddy/
-
-## Contribution
-
-# Made with ❤️ by Natasha Harrison
-
-## Built With
-
-- HTML
-- CSS
-
-## Website
-
-https://lernantino.github.io/run-buddy/
 
 ## Contribution
 
