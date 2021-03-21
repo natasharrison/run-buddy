@@ -102,7 +102,6 @@ section {
 .hero {
   background-image: url("../images/hero-bg.jpg");
   background-size: cover;
-  background-position: center;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -223,14 +222,15 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
+  border-bottom: 1px solid #39a6b2;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
-.step:not(last-child){
-  border-bottom: 1px solid #39a6b2;
+.step:last-child {
+  border-bottom: none;
 }
 
 .step h3 {
@@ -364,11 +364,13 @@ section {
   margin-bottom: 15px;
   margin-top: 5px;
   border-radius: 10px;
-  /* add a transparent background */
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
-.contact-form input:focus, .contact-form textarea:focus{
-  /* new rule */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 .contact-form button {
