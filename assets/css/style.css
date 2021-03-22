@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,12 +13,6 @@
 body {
   color: #39a6b2;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-:root {
-  --primary-color: #fce138;
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
 }
 
 /* HEADER / NAV BAR STYLES START */
@@ -134,7 +134,7 @@ section {
 }
 
 .hero-form {
-  border: solid 3px var(--secondary-color);
+  border: 3px solid var(--secondary-color);
   background-color: rgba(252, 225, 56, 0.8);
   padding: 20px;
   color: var(--secondary-color);
@@ -151,6 +151,40 @@ section {
 
 .hero-form p {
   margin: 5px 0 15px 0;
+}
+
+.hero-form button {
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.hero-form button:hover {
+  background-color: var(--tertiary-color);
+}
+
+.form-input {
+  border: 1px solid var(--secondary-color);
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: var(--secondary-color);
+  width: 100%;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.form-input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
+}
+
+.hero-form label {
+  margin: 0 5px;
 }
 
 .checkbox-wrapper input,
@@ -220,40 +254,6 @@ section {
   content: "";
 }
 
-.form-input {
-  border: 1px solid var(--secondary-color);
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: var(--secondary-color);
-  width: 100%;
-  margin-bottom: 15px;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
-}
-
-.form-input:focus {
-  background-color: rgba(255, 255, 255, 1);
-  outline: none;
-}
-
-.hero-form label {
-  margin: 0 5px;
-}
-
-.hero-form button {
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 10px;
-}
-
-.hero-form button:hover {
-  background-color: var(--tertiary-color);
-}
-
 /* HERO STYLES END */
 
 /* SECTION TITLE STYLES START */
@@ -296,7 +296,6 @@ section {
   margin: 50px auto;
   padding-bottom: 50px;
   width: 80%;
-  border-bottom: 1px solid var(--tertiary-color);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
